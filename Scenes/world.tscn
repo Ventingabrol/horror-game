@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://5kcn3lrub1xc"]
+
+[ext_resource type="PackedScene" uid="uid://dtoqsi3swadh3" path="res://Models/house_interior/scene.gltf" id="1_a02cp"]
+[ext_resource type="PackedScene" uid="uid://8fdgnkoupimc" path="res://Scenes/player.tscn" id="2_go701"]
+
+[node name="World" type="Node3D" unique_id=831461723]
+
+[node name="Sketchfab_Scene" parent="." unique_id=1630643265 instance=ExtResource("1_a02cp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.090967, -0.027919292, -9.041861)
+
+[node name="Player" parent="." unique_id=674521930 instance=ExtResource("2_go701")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4680634, 4.911894)

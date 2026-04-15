@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://balol8aubf48i"]
+
+[ext_resource type="PackedScene" uid="uid://dtoqsi3swadh3" path="res://Models/house_interior/scene.gltf" id="1_okrnj"]
+
+[node name="Sketchfab_Scene" unique_id=1630643265 instance=ExtResource("1_okrnj")]
