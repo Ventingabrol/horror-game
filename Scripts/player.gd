@@ -1,9 +1,11 @@
 extends CharacterBody3D
 
-
+#Variables
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
-
+@onready var camera: Camera3D = $Camera3D
+var rotationX
+var rotationY
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -26,3 +28,16 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, SPEED)
 
 	move_and_slide()
+
+
+func _input(event) -> void:
+	if event is InputEventMouseMotion:
+		var movimentoX = event.relative.x
+		var movimentoY = event.relative.y
+		
+		rotationX = camera.rotation.x
+		rotationY = camera.rotation.y
+		
+		print("Movimento detectado: ", movimentoX, " ", movimentoY)
+		rotationX += movimentoX
+		

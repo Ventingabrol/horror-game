@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://balol8aubf48i" path="res://Scenes/house.tscn" id="2_5a7ea"]
 [ext_resource type="PackedScene" uid="uid://8fdgnkoupimc" path="res://Scenes/player.tscn" id="2_go701"]
+[ext_resource type="PackedScene" uid="uid://dkt8c7rryw3x7" path="res://Scenes/door.tscn" id="3_5a7ea"]
 
 [node name="World" type="Node3D" unique_id=831461723]
 
@@ -10,3 +11,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="House" parent="." unique_id=982831252 instance=ExtResource("2_5a7ea")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6497355, 0, -6.6427813)
+
+[node name="door" parent="House" unique_id=1791550953 instance=ExtResource("3_5a7ea")]
+transform = Transform3D(0.009999293, 0, 0, 0, 0.010141753, 0, 0, 0, 0.010192175, -2.3502903, 0, 6.98814)
