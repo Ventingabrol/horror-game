@@ -4,6 +4,18 @@
 [ext_resource type="PackedScene" uid="uid://8fdgnkoupimc" path="res://Scenes/player.tscn" id="2_go701"]
 [ext_resource type="PackedScene" uid="uid://dkt8c7rryw3x7" path="res://Scenes/door.tscn" id="3_5a7ea"]
 
+[sub_resource type="Environment" id="Environment_5a7ea"]
+background_mode = 2
+tonemap_mode = 3
+ssr_enabled = true
+ssao_enabled = true
+sdfgi_enabled = true
+sdfgi_use_occlusion = true
+fog_enabled = true
+fog_light_energy = 0.07
+adjustment_enabled = true
+adjustment_saturation = 0.55
+
 [node name="World" type="Node3D" unique_id=831461723]
 
 [node name="Player" parent="." unique_id=674521930 instance=ExtResource("2_go701")]
@@ -14,3 +26,30 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6497355, 0, -6.6427813)
 
 [node name="door" parent="House" unique_id=1791550953 instance=ExtResource("3_5a7ea")]
 transform = Transform3D(0.009999293, 0, 0, 0, 0.010141753, 0, 0, 0, 0.010192175, -2.3502903, 0, 6.98814)
+
+[node name="light2" type="OmniLight3D" parent="House" unique_id=1202751011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28261614, 2.6874785, 4.2983627)
+light_energy = 0.22
+shadow_enabled = true
+distance_fade_enabled = true
+omni_range = 7.5313377
+
+[node name="light3" type="OmniLight3D" parent="House" unique_id=1728368845]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.965261, 3.0645847, -6.458008)
+light_energy = 0.22
+shadow_enabled = true
+distance_fade_enabled = true
+omni_range = 7.5313377
+
+[node name="light4" type="OmniLight3D" parent="House" unique_id=1319735113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.909348, 3.1356213, -6.458008)
+light_energy = 0.22
+shadow_enabled = true
+distance_fade_enabled = true
+omni_range = 7.5313377
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=926132127]
+environment = SubResource("Environment_5a7ea")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=260573302]
+transform = Transform3D(0.7427944, 0.36273336, -0.5627442, 0, 0.8405193, 0.54178154, 0.6695196, -0.4024323, 0.624333, 8.387487, 3.647073, 3.0659885)

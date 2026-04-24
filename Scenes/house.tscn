@@ -4649,6 +4649,45 @@ shadow_mesh = SubResource("ArrayMesh_b0m3g")
 [sub_resource type="BoxShape3D" id="BoxShape3D_a6ikp"]
 size = Vector3(2596.889, 2991.4922, 0.001)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_ffueq"]
+size = Vector3(646.10095, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eqmwp"]
+size = Vector3(684.25256, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pyujv"]
+size = Vector3(783.36804, 44.890312, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yb6gy"]
+size = Vector3(783.36804, 59.4559, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i1u2i"]
+size = Vector3(889.63306, 59.4559, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2qbtj"]
+size = Vector3(646.10095, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xjf7x"]
+size = Vector3(347.34686, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fwprh"]
+size = Vector3(248.63974, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jc173"]
+size = Vector3(330.5987, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_puwi3"]
+size = Vector3(730.9297, 42.619125, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_crhci"]
+size = Vector3(1001.0371, 45.735336, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bsryy"]
+size = Vector3(638.23816, 25.855194, 411.18665)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p06jr"]
+size = Vector3(450.94492, 25.855194, 411.18665)
+
 [node name="House" type="Node3D" unique_id=982831252]
 
 [node name="Sketchfab_Scene" type="Node3D" parent="." unique_id=2093455077]
@@ -5045,3 +5084,55 @@ mesh = SubResource("ArrayMesh_4b0sj")
 [node name="floor" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=2006486739]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.500597, -994.958, -0.49950033)
 shape = SubResource("BoxShape3D_a6ikp")
+
+[node name="floor2" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=147071884]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -529.85583, -1226.1567, 193.25392)
+shape = SubResource("BoxShape3D_ffueq")
+
+[node name="floor14" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=1405243921]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 561.6873, -1014.5137, 193.25392)
+shape = SubResource("BoxShape3D_eqmwp")
+
+[node name="floor3" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=236870359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -461.22208, -1846.6138, 193.25392)
+shape = SubResource("BoxShape3D_pyujv")
+
+[node name="floor12" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=223955336]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 474.93774, -1839.3308, 193.25392)
+shape = SubResource("BoxShape3D_yb6gy")
+
+[node name="floor13" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=1070183348]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, 881.48956, -1434.8696, 193.25392)
+shape = SubResource("BoxShape3D_i1u2i")
+
+[node name="floor4" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=413179531]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, -834.1975, -1526.9797, 193.25392)
+shape = SubResource("BoxShape3D_2qbtj")
+
+[node name="floor5" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=833056963]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, -207.31903, -1676.3567, 193.25392)
+shape = SubResource("BoxShape3D_xjf7x")
+
+[node name="floor6" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=100433820]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, -207.31903, -1226.3275, 193.25392)
+shape = SubResource("BoxShape3D_fwprh")
+
+[node name="floor7" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=1572797113]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, -207.31903, -784.6259, 193.25392)
+shape = SubResource("BoxShape3D_jc173")
+
+[node name="floor8" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=636056124]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, 228.91364, -984.7914, 193.25392)
+shape = SubResource("BoxShape3D_puwi3")
+
+[node name="floor9" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=1183701249]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, 230.47174, -2006.1675, 193.25392)
+shape = SubResource("BoxShape3D_crhci")
+
+[node name="floor10" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=1286923751]
+transform = Transform3D(-4.371139e-08, 1, -2.220446e-16, -1, -4.371139e-08, 2.220446e-16, 2.220446e-16, 2.220446e-16, 1, -190.57788, -2189.3618, 193.25392)
+shape = SubResource("BoxShape3D_bsryy")
+
+[node name="floor11" type="CollisionShape3D" parent="Sketchfab_Scene/Sketchfab_model/USDRoot/model/Geom/skp6256__USDInstance_1/StaticBody3D" unique_id=208071533]
+transform = Transform3D(-1, -8.742278e-08, 2.0679515e-23, 8.742278e-08, -1, 4.440892e-16, -1.9411756e-23, 4.440892e-16, 1, 29.966757, -2483.7131, 193.25392)
+shape = SubResource("BoxShape3D_p06jr")
