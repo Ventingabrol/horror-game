@@ -29,21 +29,18 @@ transform = Transform3D(0.009999293, 0, 0, 0, 0.010141753, 0, 0, 0, 0.010192175,
 
 [node name="light2" type="OmniLight3D" parent="House" unique_id=1202751011]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.28261614, 2.6874785, 4.2983627)
-light_energy = 0.22
 shadow_enabled = true
 distance_fade_enabled = true
 omni_range = 7.5313377
 
 [node name="light3" type="OmniLight3D" parent="House" unique_id=1728368845]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.965261, 3.0645847, -6.458008)
-light_energy = 0.22
 shadow_enabled = true
 distance_fade_enabled = true
 omni_range = 7.5313377
 
 [node name="light4" type="OmniLight3D" parent="House" unique_id=1319735113]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.909348, 3.1356213, -6.458008)
-light_energy = 0.22
 shadow_enabled = true
 distance_fade_enabled = true
 omni_range = 7.5313377

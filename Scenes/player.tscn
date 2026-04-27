@@ -16,3 +16,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.74833953, 0)
 [node name="Camera3D" type="Camera3D" parent="Head" unique_id=1874309406]
 
 [node name="flashlight" type="SpotLight3D" parent="Head/Camera3D" unique_id=168143253]
+visible = false

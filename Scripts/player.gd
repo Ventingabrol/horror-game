@@ -56,7 +56,7 @@ func movement(delta):
 	
 	if Input.is_action_pressed("sprint"):
 		SPEED = 3.0
-		camera.fov = lerp(camera.fov, 85.0, 10.0 * delta)
+		camera.fov = lerp(camera.fov, 80.0, 10.0 * delta)
 	else:
 		SPEED = 1.5
 		camera.fov = lerp(camera.fov, 75.0, 10.0 * delta)
@@ -70,7 +70,7 @@ func mouseMove(event):
 		
 		sensi = sensibilidade / 99900.0
 		
-		print("Movimento detectado: ", movimentoX, " ", movimentoY)
+		#print("Movimento detectado: ", movimentoX, " ", movimentoY)
 		camera.rotation.x -= movimentoY * sensi
 		rotation.y -= movimentoX * sensi
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-80), deg_to_rad(80))
